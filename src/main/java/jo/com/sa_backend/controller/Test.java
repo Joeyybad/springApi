@@ -15,7 +15,7 @@ public class Test {
     return "Chaine de caractère";
     }
     @GetMapping()
-    public List<String> getList(){
+    public List <String> getList(){
      return List.of("Chaine de caractère");
      }
 }
